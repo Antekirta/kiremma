@@ -2,97 +2,69 @@ import type { Experience } from "../types";
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: "Activepieces",
+    company: "Roko Labs",
+    link: "https://roko-labs.com/",
     positions: [
       {
-        title: "Full Stack Software Engineer",
-        year: "05.2025 - present",
+        title: "Python AI Engineer (RAG)",
+        year: "02/2025 - present",
         description: `
-- ♦ Lemme build something cool first... then I'll tell you what I did 😉.
+- ♦ Building LLM-powered systems, RAG pipelines, and document processing workflows (PDF, docx, xlsx, pptx to markdown, markdown to pdf and docx).
             `,
         skills: [
-          "TypeScript",
-          "React",
-          "Zustand",
-          "Tailwind CSS",
-          "Node.js",
-          "Fastify",
-          "BullMQ",
-          "Redis",
+          "Python",
+          "Fast API",
+          "LangChain",
+          "RAG",
+          "OCR",
+          "AWS",
+          "Docling",
+          "Sagemaker",
+          "SqlAlchemy",
           "PostgreSQL",
-          "Docker",
-          "Playwright",
-          "Vite",
-          "Nx",
         ]
       },
     ],
   },
   {
-    company: "BIGmama Technology",
+    company: "Virtual Health",
+    link: "https://www.virtualhealth.com/",
     positions: [
       {
-        title: "Fullstack Engineer",
-        year: "04.2024 - 04.2025",
+        title: "Front-end Engineer",
+        year: "11/2019 - 02/2025",
         description: `
-- ♦ Developed **end-to-end features** across the stack using **Next.js,  Zustand, React Query, FastAPI and Mongodb**.
-- ♦ Conducted **code reviews**, mentored junior developers, and provided guidance on best practices.
-- ♦ Collaborated with **UI/UX designers** to translate **Figma designs** into **accessible, pixel-perfect, and responsive UIs**.
-- ♦ Worked closely with **DevOps engineers** to deploy backend infrastructure on **Kubernetes**.
-- ♦ Partnered with **AI engineers** to integrate **OpenAI models (text completion + embeddings)** and built a **RAG system using Elasticsearch**.
+- ♦  Developed a universal notification system.
+- ♦  Led the migration to a modern tech stack.
+- ♦ Created full-featured text-editor.
+- ♦ Built numerous reusable components for the company’s shared component library.
             `,
         skills: [
-          "Next.js",
+          "Vue",
           "React",
-          "ShadCN UI",
-          "Zustand",
-          "React Query",
-          "Python",
-          "FastAPI",
-          "MongoDB",
           "Docker",
-          "Redis",
-          "Kubernetes",
-          "S3",
-          "Elasticsearch",
-          "ARQ",
+          "Pinia",
+          "Webpack",
+          "Jest",
+          "Vitest"
         ],
-      },
-      {
-        title: "Backend Engineer",
-        year: "01.2024 - 04.2024",
-        description: `
-- ♦ Implemented **backend functionalities**, designed **database models**, and optimized APIs using **FastAPI, Python, and MongoDB**.
-- ♦ Developed and maintained a **background worker system** using **ARQ and Redis**.
-- ♦ Brainstormed and debugged **new features and functionalities** with the engineering team.
-- ♦ Refactored and cleaned code, implementing **better coding patterns** and enforcing **formatting & linting rules** using **Ruff**.
-- ♦ Deployed backend services using **Docker & Docker Compose** and improved **CI/CD pipelines** with **GitHub Actions**.
-            `,
-        skills: [
-          "Python",
-          "FastAPI",
-          "MongoDB",
-          "Docker",
-          "Redis",
-          "ARQ",
-          "GoLang",
-          "Next.js",
-          "React",
-        ],
-      },
+      }
     ],
   },
 
   {
-    company: "Freelance | Upwork | Locally",
+    company: "Sidenis",
+    link: 'https://solveva.com/',
     positions: [
       {
-        title: "MERN Stack Developer",
-        year: "01.2023 - 01.2024",
+        title: "Front-end developer",
+        year: "09/2016 - 11.2019",
         description: `
-- ♦ Developed **landing pages and business websites** for local businesses and personal brands.
-- ♦ Built **full-stack MERN applications** for university students, helping them launch **MVPs** for grading projects and startups.
-- ♦ Assisted **university professors** in creating **demo applications** to serve as case studies for students.
+- ♦ Optimized Webpack build system, reducing build time by 30%.
+- ♦ Improved search page rendering, cutting page load time by more than half.
+- ♦ Developed the company’s main website.
+- ♦ Developed coworking space rental platform for optimizing office space usage.
+- ♦ Developed a real estate sales website for an external company project.
             `,
         skills: [
           "React",
@@ -105,50 +77,28 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
-
-  {
-    company: "Fennec Digital",
-    positions: [
-      {
-        title: "Frontend Developer Intern",
-        year: "01.2023 - 03.2023",
-        description: `
-- ♦ Redesigned and developed a **conceptual landing page** for the company using **Next.js, React, and Tailwind CSS**.
-- ♦ Collaborated with **full-stack engineers**, gaining insights into **best practices** in a professional development environment.
-- ♦ Received feedback from **UI/UX and graphic designers** to refine and enhance the visual and user experience of my designs.
-            `,
-        skills: ["Next.js", "React", "Tailwind CSS", "Figma", "Node.js"],
-      },
-    ],
-  },
-
   {
     company: "Education",
+    link: '',
     positions: [
       {
-        title: "Web Development & Infographics | University of Boumerdes",
-        year: "09.2022 - 07.2025",
-        description: `
-- ♦ Built a strong foundation in **software engineering**, focusing on **web development** and **UI/UX principles**.
-- ♦ Gained hands-on experience with **C/C++ and Linux**, enhancing problem-solving and system-level programming skills.
-- ♦ Developed expertise in **relational databases** and **networking**, applying concepts to real-world applications.
-- ♦ Strengthened **communication and teamwork skills** through group projects, presentations, and technical discussions.
-            `,
+        title: "Computer Science | Siberian State University of Telecommunications and Information Sciences (SUBGUTI)",
+        year: "2020 - 2022",
+        description: ` `,
         skills: [
           "C/C++",
           "Linux",
           "UI/UX Foundation",
-          "Marketing",
-          "WordPress",
-          "Networking",
           "Algorithms",
           "Relational Databases",
-          "Software Engineering",
-          "Self-learning",
-          "Teamwork",
-          "Presentation",
+          "Software Engineering"
         ],
       },
+      {
+        title: "Radio Physics and Electronics | Baltic Federal University",
+        year: "2009 - 2014",
+        description: ` `
+      }
     ],
   },
 ];

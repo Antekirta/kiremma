@@ -7,5 +7,6 @@ export type ExperiencePosition = {
 
 export type Experience = {
     company: string;
+    link: string;
     positions: ExperiencePosition[];
 };

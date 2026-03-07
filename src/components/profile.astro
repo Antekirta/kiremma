@@ -4,10 +4,9 @@ import Box from "@/components/box/index.astro";
 import BoxContent from "@/components/box/content.astro";
 
 import { PROFILE_INFO } from "@/lib/constants/profile";
-import { Briefcase } from "lucide-react";
+import { Briefcase, Earth, ShieldCheck, FileUser } from "lucide-react";
 
 import VerifiedIcon from "@/components/ui/icons/verified.astro";
-import XIcon from "@/components/ui/icons/x.astro";
 import GithubIcon from "@/components/ui/icons/github.astro";
 import LinkedinIcon from "@/components/ui/icons/linkedin.astro";
 ---
@@ -46,7 +45,7 @@ import LinkedinIcon from "@/components/ui/icons/linkedin.astro";
 {
   /* Callout badge
 <div
-  class="screen-line-after inline-flex w-full items-center gap-2 border-x bg-yellow-100 px-3 py-2 text-sm font-semibold dark:bg-yellow-500/10"
+  class="screen-line-after inline-flex w-full items-center gap-1 border-x bg-yellow-100 px-3 py-2 text-sm font-semibold dark:bg-yellow-500/10"
 >
   <span class="animate-bounce text-base">👋</span> I'm open to new opportunities
   —
@@ -59,22 +58,28 @@ import LinkedinIcon from "@/components/ui/icons/linkedin.astro";
 
 <Box>
   <BoxContent className="space-y-3">
-    <span class="flex items-center justify-start gap-2">
+    <span class="flex items-center justify-start gap-1">
       <Briefcase className="size-4" />
       I build software at
       <a
-        href="https://activepieces.com"
+        href="https://www.rokolabs.com/"
         target="_blank"
         class="underline underline-offset-4"
       >
-        Activepieces
+        Roko Labs
       </a>
     </span>
-    <span class="flex items-center justify-start gap-2">
-      <Briefcase className="size-4" />
+
+    <span class="flex items-center justify-start gap-1">
+      <Earth className="size-4" />
+      I speak English, Portuguese and Russian
+    </span>
+
+    <span class="flex items-center justify-start gap-1">
+      <FileUser className="size-4" />
       Take a look at my
       <a
-        href="https://drive.google.com/file/d/1c7-UIHy8GUvgj2XHuf7nfhUU4vpjRXSt/view?usp=sharing"
+        href="https://drive.google.com/file/d/13FYw8ZCr8H3h8_6xAc0__OJYuuYhlvOy/view?usp=sharing"
         target="_blank"
         class="underline underline-offset-4"
       >
@@ -82,23 +87,24 @@ import LinkedinIcon from "@/components/ui/icons/linkedin.astro";
       </a>
     </span>
 
-    <span class="flex items-center justify-start gap-2">
-      <XIcon className="size-4" />
-      Follow me on
+    <span class="flex items-center justify-start gap-1">
+      <ShieldCheck className="size-4" />
+      I own a
       <a
-        href="https://x.com/Louai_Dourov"
-        target="_blank"
-        class="underline underline-offset-4"
+          href="https://www.credly.com/badges/71796754-c32c-4587-b415-f67831b372af/linked_in_profile"
+          target="_blank"
+          class="underline underline-offset-4"
       >
-        Twitter
+        Microsoft developer certificate
       </a>
     </span>
 
-    <span class="flex items-center justify-start gap-2">
+
+    <span class="flex items-center justify-start gap-1">
       <LinkedinIcon className="size-4" />
       Let's connect on
       <a
-        href="https://www.linkedin.com/in/louai-boumediene-018919262/"
+        href="https://www.linkedin.com/in/kirill-murashkin-b81348134/"
         class="underline underline-offset-4"
         target="_blank"
       >
@@ -106,11 +112,11 @@ import LinkedinIcon from "@/components/ui/icons/linkedin.astro";
       </a>
     </span>
 
-    <span class="flex items-center justify-start gap-2">
+    <span class="flex items-center justify-start gap-1">
       <GithubIcon className="size-4" />
       Check out my repos on
       <a
-        href="https://github.com/Louai-Zokerburg"
+        href="https://github.com/Antekirta"
         class="underline underline-offset-4"
         target="_blank"
       >
