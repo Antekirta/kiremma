@@ -58,7 +58,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Front-end developer",
-        year: "09/2016 - 11.2019",
+        year: "09/2016 - 11/2019",
         description: `
 - ♦ Optimized Webpack build system, reducing build time by 30%.
 - ♦ Improved search page rendering, cutting page load time by more than half.

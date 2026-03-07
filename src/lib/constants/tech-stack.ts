@@ -25,7 +25,6 @@ import {
   CSS,
   DigitalOcean,
   WordPress,
-  Framer,
 } from "developer-icons";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
