@@ -1,0 +1,17 @@
+---
+import PageLayout from "@/layouts/page-layout.astro";
+import ModalExampleButton from "@/components/ui/ModalExampleButton";
+---
+
+<PageLayout title="Modal Demo" description="Quick demo of the reusable modal component.">
+  <div class="mx-auto mt-8 max-w-3xl">
+    <p class="mb-4 text-sm text-zinc-600 dark:text-zinc-300">
+      This page demonstrates the modal component. The button below mounts a React
+      island and opens a modal.
+    </p>
+    <div class="flex items-center gap-4">
+      <ModalExampleButton client:load />
+    </div>
+  </div>
+</PageLayout>
+
