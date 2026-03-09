@@ -29,6 +29,8 @@ export async function onRequest(context) {
   try {
     const body = await request.json();
 
+    const emailFrom = (body.emailFrom || "").trim();
+    const subject = (body.subject || "").trim();
     const name = (body.name || "").trim();
     const email = (body.email || "").trim();
     const message = (body.message || "").trim();
@@ -50,9 +52,9 @@ export async function onRequest(context) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "Website <hello@kiremma.dev>",
-        to: ["murashkin.kirill.konst@gmail.com"],
-        subject: "New message from website",
+        from: `Website ${emailFrom}`,
+        to: [env.EMAIL_RECIPIENT],
+        subject: subject,
         reply_to: email,
         html: `
           <h2>New contact form submission</h2>
